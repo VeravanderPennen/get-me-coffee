@@ -2,25 +2,26 @@
 <html>
   <head>
     	<title>Your awesome title</title>
-      <link rel="stylesheet" href="{{site.url}}/css/app.css">
+      <link rel="stylesheet" href="http://localhost:4000/css/app.css">
+      <script src="jquery-3.3.1.min.js"></script>
   </head>
   <body>
-    <div class="container-1">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Coffee_cup_icon.svg/2000px-Coffee_cup_icon.svg.png"/>
+    <h1>THIS IS YOUR COFFEE BREAK</h1>
+    <div class="outer-container">
+      <div class="container-1" id="ImgBox">
+        <img src="" id="RandomImg"/>
+      </div>
+      <div class="container-2">
+        <div class="container-3">
+          <!-- <h3>Total amount of cofffees</h3>
+          <p>100 cups of coffee</p>
+          <h3>Total amount of team coffees</h3>
+          <p>50 coffees</p> -->
+          <p id="timer">
+          </p>
+        </div>
+      </div>
     </div>
-    <div class="container-2">
-      <h3>
-        Total amount of cofffees
-      </h3>
-      <p>
-        100 cups of coffee
-      </p>
-      <h3>
-        Total amount of team coffees
-      </h3>
-      <p>
-        50 coffees
-      </p>
-    </div>
+  <script src="http://localhost:4000/script/timer.js"></script>
   </body>
 </html>
