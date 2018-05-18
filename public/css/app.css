@@ -2,17 +2,34 @@
 @import "partials/_base";
 
 body {
-  background-color: #93c5c1;
+  background-color: f5f5f5;
   font-size: 16px;
   font-family: 'Open Sans', Arial;
   color: #fff;
+  margin: 0;
+}
+
+.container-4 {
+  background: #93c5c1;
+  padding: 50px;
+  margin-bottom: 50px;
 }
 
 h1 {
-  width: 40%;
+  width: 36%;
   display: block;
   margin: 50px auto;
   font-size: 3em;
+  color: f5f5f5;
+}
+
+h2 {
+  font-size: 2em;
+  display: block;
+  margin: 50px auto;
+  width: 30%;
+  color: #93c5c1;
+  text-align: center;
 }
 
 img {
@@ -45,4 +62,5 @@ img {
 #timer {
   font-size: 5em;
   margin-top: 100px;
+  color: #f77f00;
 }
