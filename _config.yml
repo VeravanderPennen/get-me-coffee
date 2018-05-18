@@ -30,7 +30,7 @@ sass:
   #style: compressed
 
 source: "./src"
-destination: "./public"
+destination: "."
 
 # Build settings
 markdown: kramdown
