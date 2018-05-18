@@ -1,6 +1,32 @@
-@charset "UTF-8";
+/* @charset "UTF-8"; */
 @import "partials/_base";
 
 body {
   background-color: #f1f1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 16px;
+  font-family: 'Open Sans', Arial;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+}
+.container-1 {
+  background-color: #fff;
+  width: 50%;
+}
+
+.container-2 {
+  width: 50%;
+}
+
+.container-2 p, .container-2 h1 {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  font-size: 1.5em;
 }
